@@ -1,0 +1,30 @@
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.5-1-26100-268.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+
+PackageIdentifier: jeessy2.ddns-go
+PackageVersion: 6.5.0
+PackageLocale: en-US
+Publisher: jeessy2
+# PublisherUrl:
+# PublisherSupportUrl:
+# PrivacyUrl:
+Author: jeessy2
+PackageName: ddns-go
+PackageUrl: https://github.com/jeessy2/ddns-go
+License: MIT
+LicenseUrl: https://github.com/jeessy2/ddns-go/blob/master/LICENSE
+Copyright: Copyright (c) 2020 jeessy
+# CopyrightUrl:
+ShortDescription: Simple and easy to use DDNS.
+# Description:
+# Moniker:
+Tags:
+- ddns
+- go
+# ReleaseNotes:
+# ReleaseNotesUrl:
+# PurchaseUrl:
+# InstallationNotes:
+# Documentations:
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0

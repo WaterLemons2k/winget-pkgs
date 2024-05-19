@@ -1,0 +1,34 @@
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.5-1-26100-268.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: jeessy2.ddns-go
+PackageVersion: 6.5.0
+InstallerType: zip
+Commands:
+- ddns-go
+Protocols:
+- http
+Installers:
+- Architecture: x64
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: ddns-go.exe
+    PortableCommandAlias: ddns-go
+  InstallerUrl: https://github.com/jeessy2/ddns-go/releases/download/v6.5.0/ddns-go_6.5.0_windows_x86_64.zip
+  InstallerSha256: D54D38A6A6DA5DCB607F065F9D9EBBF2F04436149455A572668C020CB138DD6C
+- Architecture: x86
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: ddns-go.exe
+    PortableCommandAlias: ddns-go
+  InstallerUrl: https://github.com/jeessy2/ddns-go/releases/download/v6.5.0/ddns-go_6.5.0_windows_i386.zip
+  InstallerSha256: DC7B187BF817F2A69BE21EF40067DF650E243476C8759B058200867B315F27D5
+- Architecture: arm64
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: ddns-go.exe
+    PortableCommandAlias: ddns-go
+  InstallerUrl: https://github.com/jeessy2/ddns-go/releases/download/v6.5.0/ddns-go_6.5.0_windows_arm64.zip
+  InstallerSha256: F5517CEE4850A3E97DE6CC312A54FBC5F841111D4F2B86AA165B305AC0FBA2D4
+ManifestType: installer
+ManifestVersion: 1.6.0
